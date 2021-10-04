@@ -1,0 +1,75 @@
+@import 'bootswatch/dist/cosmo/bootstrap.min.css';
+@import 'swiper/css';
+@import 'swiper/css/navigation';
+@import 'swiper/css/pagination';
+@import 'swiper/css/scrollbar';
+
+:root {
+  --swiper-theme-color: #fff;
+}
+
+.swiper-pagination-bullet {
+  opacity: 0.5;
+  background-color: #fff;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+.mw-85 {
+  max-width: 85%;
+}
+
+.mw-40 {
+  max-width: 40%;
+}
+
+.w-85 {
+  width: 85%;
+}
+
+.flex-auto {
+  flex: 1 0 auto;
+  max-width: 100px;
+}
+
+.radius-5 {
+  border-radius: 5px;
+}
+
+.btn-fucsia {
+  background-color: #ff65c5;
+  border: none;
+  color: white;
+}
+
+.bg-fucsia {
+  background-color: #ff65c5;
+}
+
+.color-fucsia {
+  color: #ff65c5;
+}
+
+@media (min-width: 992px) {
+  :root {
+    --bs-body-font-size: 20px;
+  }
+
+  .w-md-50 {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --swiper-theme-color: transparent;
+  }
+}
+
+@media (max-width: 425px) {
+  .w-md-100 {
+    width: 100%;
+  }
+}
