@@ -96,7 +96,7 @@ const Portfolio = () => {
 
                           <button
                             type="button"
-                            className="btn btn-primary mt-auto btn-fucsia"
+                            className="btn-fucsia mt-auto "
                             onClick={() => handleShow(achievements, skills)}
                           >
                             {t('achievements')}

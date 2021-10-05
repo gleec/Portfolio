@@ -17,16 +17,14 @@ const Header = () => {
                 <h3 className="text-muted fw-bold fs-2 pt-2 pt-md-0"> {t('profession')}</h3>
                 <p className="mw-85">{t('profession_desc')}</p>
                 <div className="pt-3">
-                  <button type="button" className="btn btn-fucsia">
-                    <a
-                      className="text-light text-decoration-none"
-                      href="/glery_cardoza.pdf"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {t('see_more')}
-                    </a>
-                  </button>
+                  <a
+                    className="btn-fucsia text-light text-decoration-none"
+                    href="/glery_cardoza.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {t('see_more')}
+                  </a>
                 </div>
               </div>
             </div>
