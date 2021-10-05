@@ -92,7 +92,7 @@ const Portfolio = () => {
                             <h3 className="d-inline-block me-3 text-dark ">{name}</h3>
                             <MdLink size="32px" color="#f66ade" />
                           </a>
-                          <p className=" mh-100">{description}</p>
+                          <p className="mh-100 w-85">{description}</p>
 
                           <button
                             type="button"
