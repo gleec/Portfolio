@@ -1,4 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
+import Script from 'next/script';
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -11,11 +12,11 @@ class MyDocument extends Document {
       <Html>
         <Head>
           <meta name="descripcion" content="Glery Cardoza Portfolio" />
-          <script
+          <Script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-            crossorigin="anonymous"
-          ></script>
+            crossOrigin="anonymous"
+          ></Script>
         </Head>
         <body>
           <Main />
