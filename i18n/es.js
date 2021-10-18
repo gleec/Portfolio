@@ -165,9 +165,9 @@ export const esp = {
     },
     {
       image: '/project/watchmen.png',
-      urlProject: 'http://tartarayalemana.com/',
+      urlProject: '',
       name: 'Watchmen',
-      description: `Es una web que permite visualizar y buscar  las peliculas más populares, mediante el uso de la api  "https://www.themoviedb.org/"`,
+      description: `Es una web que permite visualizar y buscar  las peliculas más populares, mediante el uso de la api "https://www.themoviedb.org/"`,
       achievements: ['Manejo de framework Next Js', 'Manejo de NodeJs'],
       skills: [
         '/logo/html.png',
