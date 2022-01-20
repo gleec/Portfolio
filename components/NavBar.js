@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import SelectorLang from './SelectorLang';
+import LangSelector from './LangSelector';
 import { useTranslation } from 'react-i18next';
 import Image from 'next/image';
 
@@ -14,7 +14,7 @@ const NavBar = () => {
 
         <div className="d-flex">
           <div className="d-lg-none mb-2">
-            <SelectorLang />
+            <LangSelector />
           </div>
 
           <button
@@ -43,7 +43,6 @@ const NavBar = () => {
                     className="bg-white rounded-circle"
                     src="/logo/github.png"
                     alt="Star"
-                    s
                     width={22}
                     height={20}
                   />
@@ -71,7 +70,7 @@ const NavBar = () => {
               </a>
             </div>
             <div className="nav-item d-none d-lg-block">
-              <SelectorLang />
+              <LangSelector />
             </div>
           </div>
         </div>
