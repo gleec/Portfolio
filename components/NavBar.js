@@ -52,7 +52,7 @@ const NavBar = () => {
             </div>
             <div className="nav-item ">
               <a
-                href="www.linkedin.com/in/gleryc8"
+                href="https://linkedin.com/in/gleryc8"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="nav-link"
