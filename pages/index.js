@@ -1,7 +1,7 @@
 import Layout from '../components/Layout';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
-import Portfolio from '../components/Portfolio';
+import Projects from '../components/Projects';
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
       <Layout>
         <Header />
         <Hero />
-        <Portfolio />
+        <Projects/>
       </Layout>
     </>
   );

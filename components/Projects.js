@@ -1,13 +1,26 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Image from 'next/image';
+import ProjectService from '../services/project.service';
 import { useTranslation } from 'react-i18next';
+import { urlFor } from '../services/img.service';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar } from 'swiper';
 import { MdLink } from 'react-icons/md';
-import Modal from '../components/Modal';
+import Modal from './Modal';
 
-const Portfolio = () => {
+const Projects = () => {
+
+  const { t, i18n } = useTranslation();
+
+  const [projects, setProjects] = useState([]);
+
+  useEffect(() => {
+    ProjectService.getProjects().then((data) => {
+      setProjects(data);
+    });
+  }, []);
+
   const [isShown, setIsShown] = useState(false);
   const [currentAchievements, setCurrentAchievements] = useState([]);
   const [currentSkills, setCurrentSkills] = useState([]);
@@ -16,36 +29,30 @@ const Portfolio = () => {
     setCurrentAchievements(achievements);
     setCurrentSkills(skills);
   };
-  const { t } = useTranslation();
-  const projects = t('projects_array', { returnObjects: true });
 
-  return (
+  console.log(projects);
+
+    return (
     <div className="container-fluid">
       <div className="row">
         <div className="col-md-12 px-0">
           <div className="card card-body bg-dark py-0">
             <div className="row">
               <div className="col-md-12 pb-2 pt-3">
-                <h1 className="text-center text-light m-auto">{t('portfolio')}</h1>
+                <h1 className="text-center text-light m-auto">{t('projects')}</h1>
               </div>
               <Modal onClose={() => setIsShown(false)} show={isShown}>
                 <ul>
                   {currentAchievements.map((currentAchievement, index) => (
                     <li key={index}>
-                      <p className="mw-50">{currentAchievement}</p>
+                      <p className="mw-50">{currentAchievement[i18n.language]}</p>
                     </li>
                   ))}
                 </ul>
                 {currentSkills.map((currentSkill, index) => (
                   <div key={index} className="d-inline p-3">
-                    <Image
-                      src={currentSkill}
-                      alt="logo skill"
-                      width={40}
-                      height={40}
-                      objectFit="fill"
-                      overflow="hidden"
-                    />
+                     <img src={urlFor(currentSkill).width(40).url()} />
+                 
                   </div>
                 ))}
               </Modal>
@@ -59,40 +66,34 @@ const Portfolio = () => {
                 breakpoints={{
                   320: {
                     slidesPerView: 1,
-                    spaceBetween: 20
+                    spaceBetween: 20,
                   },
 
                   1024: {
                     slidesPerView: 2,
-                    spaceBetween: 40
-                  }
+                    spaceBetween: 40,
+                  },
                 }}
               >
                 {projects.map(
-                  ({ name, urlProject, description, achievements, skills, image }, index) => (
+                  ({ name, url, description, achievements, skills, image }, index) => (
                     <SwiperSlide key={index}>
                       <div className="card h-100 px-4 py-1 pt-4">
-                        <Image
-                          src={image}
-                          alt="logo project"
-                          width={400}
-                          height={350}
-                          objectFit="cover"
-                          overflow="hidden"
-                        />
+          
+                        <img src={urlFor(image).width(350).height(250).url()} />
 
                         <div className="align-items-start card-body d-flex flex-column">
                           <a
                             className="text-decoration-none"
                             aria-current="page"
-                            href={urlProject}
+                            href={url}
                             target="_blank"
                             rel="noopener noreferrer"
                           >
                             <h3 className="d-inline-block me-3 text-dark ">{name}</h3>
                             <MdLink size="32px" color="#f66ade" />
                           </a>
-                          <p className="mh-100 w-85">{description}</p>
+                          <p className="mh-100 w-85">{description[i18n.language]}</p>
 
                           <button
                             type="button"
@@ -114,4 +115,4 @@ const Portfolio = () => {
     </div>
   );
 };
-export default Portfolio;
+export default Projects;

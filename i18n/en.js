@@ -13,105 +13,105 @@ export const eng = {
   skills: 'Skills',
   experience: 'Experience',
   achievements: 'Achievements',
-  portfolio: 'Portfolio',
+  projects: 'Projects',
   linkedin: 'Linkedin',
   language: 'Lang',
   see_more: 'See more',
-  skills_array: [
-    {
-      skill: 'Javascript',
-      percentage: '70',
-      logo: '/logo/js.png'
-    },
-    {
-      skill: 'Html5',
-      percentage: '80',
-      logo: '/logo/html.png'
-    },
-    {
-      skill: 'CSS',
-      percentage: '75',
-      logo: '/logo/css.png'
-    },
-    {
-      skill: 'SASS',
-      percentage: '75',
-      logo: '/logo/sass-logo.png'
-    },
-    {
-      skill: 'Node.js',
-      percentage: '60',
-      logo: '/logo/node-js.png'
-    },
-    {
-      skill: 'Next.js',
-      percentage: '60',
-      logo: '/logo/nextjs.png'
-    },
-    {
-      skill: 'Angular',
-      percentage: '30',
-      logo: '/logo/angular.png'
-    },
-    {
-      skill: 'PostgreSQL',
-      percentage: '75',
-      logo: '/logo/postgresql.png'
-    },
-    {
-      skill: 'Crystal Reports',
-      percentage: '60',
-      logo: '/logo/crystal-reports.png'
-    },
-    {
-      skill: 'Jasper Reports',
-      percentage: '50',
-      logo: '/logo/JasperReports.png'
-    }
-  ],
+  // skills_array: [
+  //   {
+  //     skill: 'Javascript',
+  //     percentage: '70',
+  //     logo: '/logo/js.png'
+  //   },
+  //   {
+  //     skill: 'Html5',
+  //     percentage: '80',
+  //     logo: '/logo/html.png'
+  //   },
+  //   {
+  //     skill: 'CSS',
+  //     percentage: '75',
+  //     logo: '/logo/css.png'
+  //   },
+  //   {
+  //     skill: 'SASS',
+  //     percentage: '75',
+  //     logo: '/logo/sass-logo.png'
+  //   },
+  //   {
+  //     skill: 'Node.js',
+  //     percentage: '60',
+  //     logo: '/logo/node-js.png'
+  //   },
+  //   {
+  //     skill: 'Next.js',
+  //     percentage: '60',
+  //     logo: '/logo/nextjs.png'
+  //   },
+  //   {
+  //     skill: 'Angular',
+  //     percentage: '30',
+  //     logo: '/logo/angular.png'
+  //   },
+  //   {
+  //     skill: 'PostgreSQL',
+  //     percentage: '75',
+  //     logo: '/logo/postgresql.png'
+  //   },
+  //   {
+  //     skill: 'Crystal Reports',
+  //     percentage: '60',
+  //     logo: '/logo/crystal-reports.png'
+  //   },
+  //   {
+  //     skill: 'Jasper Reports',
+  //     percentage: '50',
+  //     logo: '/logo/JasperReports.png'
+  //   }
+  // ],
 
-  experiences_array: [
-    {
-      job: 'Web Developer',
-      company: 'Looppers',
-      from: 'Sep 2020',
-      to: 'Ago 2021',
-      functions: [
-        'Web application development in Ionic, Angular.',
-        'Handling DB with MySQL Server',
-        'Backend development in nodeJs'
-      ],
-      logo: '/company/looppers.jpg'
-    },
-    {
-      job: 'Help Desk Analyst',
-      company: 'Jacidi',
-      from: 'Oct 2018',
-      to: 'Sep 2020',
-      functions: [
-        'Responsible for customer incidents / requirements, using the Rticket and JIRA tools.',
-        'Customer service and assistance through mail, telephone or by generating guides and manuals.',
-        'Analyze and make queries in Postgresql for first and second level troubleshooting.',
-        'Generate queries and model reports in Jaspersoft Studio.',
-        'Provide support on the iDempiere system.',
-        'Management and support of the hotel business model at a functional level for the development of the Backend and Frontend.'
-      ],
-      logo: '/company/jacidi.jpg'
-    },
-    {
-      job: 'Developer',
-      company: 'Factory Soft',
-      from: 'Feb 2018',
-      to: 'Ago 2018',
-      functions: [
-        'Develop queries in SQL Server.',
-        'Management and development of reports and formats with Crystal Report in the modules: Administrative and Payroll of the eFactory system.',
-        'Technical and functional support to eFactory customers.',
-        'Creation of TXT Files to create massive payment of the different Banks of Venezuela.'
-      ],
-      logo: '/company/factory.png'
-    }
-  ],
+  // experiences_array: [
+  //   {
+  //     job: 'Web Developer',
+  //     company: 'Looppers',
+  //     from: 'Sep 2020',
+  //     to: 'Ago 2021',
+  //     functions: [
+  //       'Web application development in Ionic, Angular.',
+  //       'Handling DB with MySQL Server',
+  //       'Backend development in nodeJs'
+  //     ],
+  //     logo: '/company/looppers.jpg'
+  //   },
+  //   {
+  //     job: 'Help Desk Analyst',
+  //     company: 'Jacidi',
+  //     from: 'Oct 2018',
+  //     to: 'Sep 2020',
+  //     functions: [
+  //       'Responsible for customer incidents / requirements, using the Rticket and JIRA tools.',
+  //       'Customer service and assistance through mail, telephone or by generating guides and manuals.',
+  //       'Analyze and make queries in Postgresql for first and second level troubleshooting.',
+  //       'Generate queries and model reports in Jaspersoft Studio.',
+  //       'Provide support on the iDempiere system.',
+  //       'Management and support of the hotel business model at a functional level for the development of the Backend and Frontend.'
+  //     ],
+  //     logo: '/company/jacidi.jpg'
+  //   },
+  //   {
+  //     job: 'Developer',
+  //     company: 'Factory Soft',
+  //     from: 'Feb 2018',
+  //     to: 'Ago 2018',
+  //     functions: [
+  //       'Develop queries in SQL Server.',
+  //       'Management and development of reports and formats with Crystal Report in the modules: Administrative and Payroll of the eFactory system.',
+  //       'Technical and functional support to eFactory customers.',
+  //       'Creation of TXT Files to create massive payment of the different Banks of Venezuela.'
+  //     ],
+  //     logo: '/company/factory.png'
+  //   }
+  // ],
 
   projects_array: [
     {
@@ -136,7 +136,7 @@ export const eng = {
       ERP IDempiere software`,
       achievements: [
         'Management and management of the iDempiere system',
-        'Management of hotel business model',
+        'Manejo y gestión del sistema iDempiere',
         'Programming languages: HTML, CSS, Javascript, Postgress',
         'Use of tools: JasperSoft Studio, GitHub, Rticket and JIRA',
         'Analysis for first and second level incident solutions'
