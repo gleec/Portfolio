@@ -113,70 +113,70 @@ export const eng = {
   //   }
   // ],
 
-  projects_array: [
-    {
-      image: '/project/efactory.png',
-      urlProject: 'http://login.factorysoftve.com/Framework/Formularios/frmLogin.aspx#efactory',
-      name: 'efactory ERP',
-      description: `eFactory is an ERP that offers business solutions in the Cloud to manage
-      the business of a company effectively and to focus management on creating opportunities of competitive value.`,
-      achievements: [
-        'ASP.net environment management',
-        'Programming language: SQL',
-        'Use of the tool: Crystal Report',
-        'Technical and functional support to eFactory customers'
-      ],
-      skills: ['/logo/crystal-reports.png']
-    },
-    {
-      image: '/project/5senia.png',
-      urlProject: 'http://5senia.jacidi.com:8888/webui/',
-      name: '5senia',
-      description: `5senia is an ERP that offers Hotel business solutions in the Cloud, oriented in the
-      ERP IDempiere software`,
-      achievements: [
-        'Management and management of the iDempiere system',
-        'Manejo y gestión del sistema iDempiere',
-        'Programming languages: HTML, CSS, Javascript, Postgress',
-        'Use of tools: JasperSoft Studio, GitHub, Rticket and JIRA',
-        'Analysis for first and second level incident solutions'
-      ],
-      skills: [
-        '/logo/html.png',
-        '/logo/css.png',
-        '/logo/sass-logo.png',
-        '/logo/js.png',
-        '/logo/JasperReports.png'
-      ]
-    },
-    {
-      image: '/project/tartarayalemana.jpeg',
-      urlProject: 'http://tartarayalemana.com/',
-      name: 'Tartara & Alemana',
-      description: `It is a web application to manage processes of the restaurant "Tartara y Alemana", in which you can manage the order of the
-      customer through a shopping cart and process the payment of your order`,
-      achievements: ['Angular framework management ', ' NodeJs management ', ' Using MySQL Server'],
-      skills: [
-        '/logo/html.png',
-        '/logo/sass-logo.png',
-        '/logo/js.png',
-        '/logo/angular.png',
-        '/logo/node-js.png'
-      ]
-    },
-    {
-      image: '/project/watchmen.png',
-      urlProject: '',
-      name: 'Watchmen',
-      description: `It is a website that allows you to view and search the most popular movies, by using the api "https://www.themoviedb.org/"`,
-      achievements: ['Management of framework Next Js ', ' Management of NodeJs'],
-      skills: [
-        '/logo/html.png',
-        '/logo/sass-logo.png',
-        '/logo/js.png',
-        '/logo/nextjs.png',
-        '/logo/node-js.png'
-      ]
-    }
-  ]
+  // projects_array: [
+  //   {
+  //     image: '/project/efactory.png',
+  //     urlProject: 'http://login.factorysoftve.com/Framework/Formularios/frmLogin.aspx#efactory',
+  //     name: 'efactory ERP',
+  //     description: `eFactory is an ERP that offers business solutions in the Cloud to manage
+  //     the business of a company effectively and to focus management on creating opportunities of competitive value.`,
+  //     achievements: [
+  //       'ASP.net environment management',
+  //       'Programming language: SQL',
+  //       'Use of the tool: Crystal Report',
+  //       'Technical and functional support to eFactory customers'
+  //     ],
+  //     skills: ['/logo/crystal-reports.png']
+  //   },
+  //   {
+  //     image: '/project/5senia.png',
+  //     urlProject: 'http://5senia.jacidi.com:8888/webui/',
+  //     name: '5senia',
+  //     description: `5senia is an ERP that offers Hotel business solutions in the Cloud, oriented in the
+  //     ERP IDempiere software`,
+  //     achievements: [
+  //       'Management and management of the iDempiere system',
+  //       'Manejo y gestión del sistema iDempiere',
+  //       'Programming languages: HTML, CSS, Javascript, Postgress',
+  //       'Use of tools: JasperSoft Studio, GitHub, Rticket and JIRA',
+  //       'Analysis for first and second level incident solutions'
+  //     ],
+  //     skills: [
+  //       '/logo/html.png',
+  //       '/logo/css.png',
+  //       '/logo/sass-logo.png',
+  //       '/logo/js.png',
+  //       '/logo/JasperReports.png'
+  //     ]
+  //   },
+  //   {
+  //     image: '/project/tartarayalemana.jpeg',
+  //     urlProject: 'http://tartarayalemana.com/',
+  //     name: 'Tartara & Alemana',
+  //     description: `It is a web application to manage processes of the restaurant "Tartara y Alemana", in which you can manage the order of the
+  //     customer through a shopping cart and process the payment of your order`,
+  //     achievements: ['Angular framework management ', ' NodeJs management ', ' Using MySQL Server'],
+  //     skills: [
+  //       '/logo/html.png',
+  //       '/logo/sass-logo.png',
+  //       '/logo/js.png',
+  //       '/logo/angular.png',
+  //       '/logo/node-js.png'
+  //     ]
+  //   },
+  //   {
+  //     image: '/project/watchmen.png',
+  //     urlProject: '',
+  //     name: 'Watchmen',
+  //     description: `It is a website that allows you to view and search the most popular movies, by using the api "https://www.themoviedb.org/"`,
+  //     achievements: ['Management of framework Next Js ', ' Management of NodeJs'],
+  //     skills: [
+  //       '/logo/html.png',
+  //       '/logo/sass-logo.png',
+  //       '/logo/js.png',
+  //       '/logo/nextjs.png',
+  //       '/logo/node-js.png'
+  //     ]
+  //   }
+  // ]
 };
