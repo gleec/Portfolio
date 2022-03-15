@@ -13,8 +13,6 @@ const Skills = () => {
     });
   }, []);
 
-  console.log(skills);
-
   return (
     <>
       {skills.map(({ name, percentage, logo }, i) => (

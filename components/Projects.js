@@ -10,7 +10,6 @@ import { MdLink } from 'react-icons/md';
 import Modal from './Modal';
 
 const Projects = () => {
-
   const { t, i18n } = useTranslation();
 
   const [projects, setProjects] = useState([]);
@@ -30,9 +29,7 @@ const Projects = () => {
     setCurrentSkills(skills);
   };
 
-  console.log(projects);
-
-    return (
+  return (
     <div className="container-fluid">
       <div className="row">
         <div className="col-md-12 px-0">
@@ -51,8 +48,7 @@ const Projects = () => {
                 </ul>
                 {currentSkills.map((currentSkill, index) => (
                   <div key={index} className="d-inline p-3">
-                     <img src={urlFor(currentSkill).width(40).url()} />
-                 
+                    <img src={urlFor(currentSkill).width(40).url()} />
                   </div>
                 ))}
               </Modal>
@@ -75,14 +71,13 @@ const Projects = () => {
                   },
                 }}
               >
-                {projects.map(
-                  ({ name, url, description, achievements, skills, image }, index) => (
-                    <SwiperSlide key={index}>
-                      <div className="card h-100 px-4 py-1 pt-4">
-          
-                        <img src={urlFor(image).width(350).height(250).url()} />
+                {projects.map(({ name, url, description, achievements, skills, image }, index) => (
+                  <SwiperSlide key={index}>
+                    <div className="card h-100 px-4 py-1 pt-4">
+                      <img src={urlFor(image).width(350).height(250).url()} />
 
-                        <div className="align-items-start card-body d-flex flex-column">
+                      <div className="align-items-start card-body d-flex flex-column">
+                        {!url ? <h3 className="d-inline-block me-3 text-dark ">{name}</h3> : (
                           <a
                             className="text-decoration-none"
                             aria-current="page"
@@ -93,20 +88,20 @@ const Projects = () => {
                             <h3 className="d-inline-block me-3 text-dark ">{name}</h3>
                             <MdLink size="32px" color="#f66ade" />
                           </a>
-                          <p className="mh-100 w-85">{description[i18n.language]}</p>
+                        )}
+                        <p className="mh-100 w-85">{description[i18n.language]}</p>
 
-                          <button
-                            type="button"
-                            className="btn-fucsia mt-auto "
-                            onClick={() => handleShow(achievements, skills)}
-                          >
-                            {t('achievements')}
-                          </button>
-                        </div>
+                        <button
+                          type="button"
+                          className="btn-fucsia mt-auto "
+                          onClick={() => handleShow(achievements, skills)}
+                        >
+                          {t('achievements')}
+                        </button>
                       </div>
-                    </SwiperSlide>
-                  )
-                )}
+                    </div>
+                  </SwiperSlide>
+                ))}
               </Swiper>
             </div>
           </div>

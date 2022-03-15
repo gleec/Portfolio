@@ -112,70 +112,70 @@ export const esp = {
   //     logo: '/company/factory.png'
   //   }
   // ],
-  projects_array: [
-    {
-      image: '/project/efactory.png',
-      urlProject: 'http://login.factorysoftve.com/Framework/Formularios/frmLogin.aspx#efactory',
-      name: 'efactory ERP',
-      description: `eFactory es un ERP que ofrece soluciones empresariales en la Nube para administrar 
-      el negocio de una empresa de manera eficaz y a enfocar la gestión en crear oportunidades de valor competitivo.`,
-      achievements: [
-        'Manejo de entorno ASP.net',
-        'Lenguaje de programación: pgSQL',
-        'Uso de la herramienta: Crystal Report',
-        'Soporte técnico y funcional a los clientes de eFactory'
-      ],
-      skills: ['/logo/crystal-reports.png']
-    },
-    {
-      image: '/project/5senia.png',
-      urlProject: 'http://5senia.jacidi.com:8888/webui/',
-      name: '5senia',
-      description: `5senia es un ERP que ofrece soluciones de negocio Hotelero en la Nube, orientado en el
-      software ERP IDempiere`,
-      achievements: [
-        'Manejo y gestión del sistema iDempiere',
-        'Manejo de modelo de negocio hotelero',
-        'Lenguajes de programación: HTML, CSS, Javascript',
-        'Uso de herramientas: JasperSoft Studio, GitHub, Rticket y JIRA',
-        'Analisis para soluciones de incidencias de primer y segundo nivel'
-      ],
-      skills: [
-        '/logo/html.png',
-        '/logo/css.png',
-        '/logo/sass-logo.png',
-        '/logo/js.png',
-        '/logo/JasperReports.png'
-      ]
-    },
-    {
-      image: '/project/tartarayalemana.jpeg',
-      urlProject: 'http://tartarayalemana.com/',
-      name: 'Tartara & Alemana',
-      description: `Es una aplicación web para gestionar procesos del restaurante "Tartara y Alemana" , en el cual se puede gestionar la orden del 
-      cliente mediante un carrito de compra y procesar el pago de su pedido`,
-      achievements: ['Manejo de framework Angular', 'Manejo de NodeJs', 'Uso de MySQL Server'],
-      skills: [
-        '/logo/html.png',
-        '/logo/sass-logo.png',
-        '/logo/js.png',
-        '/logo/angular.png',
-        '/logo/node-js.png'
-      ]
-    },
-    {
-      image: '/project/watchmen.png',
-      urlProject: '',
-      name: 'Watchmen',
-      description: `Es una web que permite visualizar y buscar  las peliculas más populares, mediante el uso de la api "https://www.themoviedb.org/"`,
-      achievements: ['Manejo de framework Next Js', 'Manejo de NodeJs'],
-      skills: [
-        '/logo/html.png',
-        '/logo/sass-logo.png',
-        '/logo/js.png',
-        '/logo/nextjs.png',
-        '/logo/node-js.png'
-      ]
-    }
-  ]
+  // projects_array: [
+  //   {
+  //     image: '/project/efactory.png',
+  //     urlProject: 'http://login.factorysoftve.com/Framework/Formularios/frmLogin.aspx#efactory',
+  //     name: 'efactory ERP',
+  //     description: `eFactory es un ERP que ofrece soluciones empresariales en la Nube para administrar 
+  //     el negocio de una empresa de manera eficaz y a enfocar la gestión en crear oportunidades de valor competitivo.`,
+  //     achievements: [
+  //       'Manejo de entorno ASP.net',
+  //       'Lenguaje de programación: pgSQL',
+  //       'Uso de la herramienta: Crystal Report',
+  //       'Soporte técnico y funcional a los clientes de eFactory'
+  //     ],
+  //     skills: ['/logo/crystal-reports.png']
+  //   },
+  //   {
+  //     image: '/project/5senia.png',
+  //     urlProject: 'http://5senia.jacidi.com:8888/webui/',
+  //     name: '5senia',
+  //     description: `5senia es un ERP que ofrece soluciones de negocio Hotelero en la Nube, orientado en el
+  //     software ERP IDempiere`,
+  //     achievements: [
+  //       'Manejo y gestión del sistema iDempiere',
+  //       'Manejo de modelo de negocio hotelero',
+  //       'Lenguajes de programación: HTML, CSS, Javascript',
+  //       'Uso de herramientas: JasperSoft Studio, GitHub, Rticket y JIRA',
+  //       'Analisis para soluciones de incidencias de primer y segundo nivel'
+  //     ],
+  //     skills: [
+  //       '/logo/html.png',
+  //       '/logo/css.png',
+  //       '/logo/sass-logo.png',
+  //       '/logo/js.png',
+  //       '/logo/JasperReports.png'
+  //     ]
+  //   },
+  //   {
+  //     image: '/project/tartarayalemana.jpeg',
+  //     urlProject: 'http://tartarayalemana.com/',
+  //     name: 'Tartara & Alemana',
+  //     description: `Es una aplicación web para gestionar procesos del restaurante "Tartara y Alemana" , en el cual se puede gestionar la orden del 
+  //     cliente mediante un carrito de compra y procesar el pago de su pedido`,
+  //     achievements: ['Manejo de framework Angular', 'Manejo de NodeJs', 'Uso de MySQL Server'],
+  //     skills: [
+  //       '/logo/html.png',
+  //       '/logo/sass-logo.png',
+  //       '/logo/js.png',
+  //       '/logo/angular.png',
+  //       '/logo/node-js.png'
+  //     ]
+  //   },
+  //   {
+  //     image: '/project/watchmen.png',
+  //     urlProject: '',
+  //     name: 'Watchmen',
+  //     description: `Es una web que permite visualizar y buscar  las peliculas más populares, mediante el uso de la api "https://www.themoviedb.org/"`,
+  //     achievements: ['Manejo de framework Next Js', 'Manejo de NodeJs'],
+  //     skills: [
+  //       '/logo/html.png',
+  //       '/logo/sass-logo.png',
+  //       '/logo/js.png',
+  //       '/logo/nextjs.png',
+  //       '/logo/node-js.png'
+  //     ]
+  //   }
+  // ]
 };
