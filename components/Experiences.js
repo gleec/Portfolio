@@ -16,7 +16,7 @@ const Experience = () => {
   return (
     <>
    {experiences.map(({ job, company, from, to, functions, logo }, i) => (
-     <div className="py-md-5 py-3" key={i}>
+     <div className="py-3" key={i}>
        <div className=" d-md-flex flex-row align-items-start">
          <div className="text-center flex-auto m-auto m-md-3">
          <img className="rounded-circle" src={urlFor(logo).width(150).url()} />
