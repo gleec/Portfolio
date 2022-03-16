@@ -6,7 +6,7 @@ import Image from 'next/image';
 const NavBar = () => {
   const { t } = useTranslation();
   return (
-    <nav className="px-4 py-2 mw-100 navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="px-3 py-2 mw-100 navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="mw-100 px-0 container">
         <Link href="/">
           <a className="navbar-brand fs-4">{t('name_dev')}</a>
