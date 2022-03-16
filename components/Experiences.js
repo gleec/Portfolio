@@ -13,8 +13,6 @@ const Experience = () => {
     });
   }, []);
 
-  console.log(experiences);
-
   return (
     <>
    {experiences.map(({ job, company, from, to, functions, logo }, i) => (

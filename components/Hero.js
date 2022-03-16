@@ -9,7 +9,7 @@ const Hero = () => {
     <div className="container-fluid">
       <div className="row">
         <div className="col-md-4 px-0">
-          <div className="px-2 card h-100">
+          <div className="px-4 card h-100">
             <div className="card-body">
               <h1 className="fw-light pb-3">{t('skills')}</h1>
                <Skills/>
@@ -17,10 +17,10 @@ const Hero = () => {
           </div>
         </div>
         <div className="col-md-8 px-0">
-          <div className="h-100 card">
+          <div className="h-100 card px-4">
             <div className="card-body d-inline-block">
-              <h1 className="px-3 fw-light pb-3">{t('experience')}</h1>
-              <div className="px-2">
+              <h1 className="fw-light pb-3">{t('experience')}</h1>
+              <div>
                <Experiences/>
               </div>
             </div>

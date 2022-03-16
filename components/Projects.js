@@ -69,6 +69,11 @@ const Projects = () => {
                     slidesPerView: 2,
                     spaceBetween: 40,
                   },
+
+                  1440: {
+                    slidesPerView: 3,
+                    spaceBetween: 40,
+                  },
                 }}
               >
                 {projects.map(({ name, url, description, achievements, skills, image }, index) => (
@@ -77,7 +82,9 @@ const Projects = () => {
                       <img src={urlFor(image).width(350).height(250).url()} />
 
                       <div className="align-items-start card-body d-flex flex-column">
-                        {!url ? <h3 className="d-inline-block me-3 text-dark ">{name}</h3> : (
+                        {!url ? (
+                          <h3 className="d-inline-block me-3 text-dark ">{name}</h3>
+                        ) : (
                           <a
                             className="text-decoration-none"
                             aria-current="page"
@@ -85,11 +92,13 @@ const Projects = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            <h3 className="d-inline-block me-3 text-dark ">{name}</h3>
-                            <MdLink size="32px" color="#f66ade" />
+                            <div className="d-flex align-items-center">
+                              <h3 className="d-inline-block me-3 text-dark mb-0">{name}</h3>
+                              <MdLink size="33px" color="#f66ade" />
+                            </div>
                           </a>
                         )}
-                        <p className="mh-100 w-85">{description[i18n.language]}</p>
+                        <p className="mh-100 w-100 mt-3">{description[i18n.language]}</p>
 
                         <button
                           type="button"
