@@ -48,7 +48,7 @@ const Projects = () => {
                 </ul>
                 {currentSkills.map((currentSkill, index) => (
                   <div key={index} className="d-inline p-3">
-                    <img src={urlFor(currentSkill).width(40).url()} />
+                    <img src={urlFor(currentSkill).width(60).url()} />
                   </div>
                 ))}
               </Modal>
